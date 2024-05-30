@@ -25,14 +25,27 @@ fn main() {
         // println!("{}",string_dynamic);
 
     // Tupple
-    let emp_info:(&str,u8) = ("Hamza",21);
+    // let emp_info:(&str,u8) = ("Hamza",21);
 
         // let emp_name = emp_info.0;
         // let emp_age = emp_info.1;
         // println!("Employee Name ={},Employee Age={}",emp_name,emp_age)
     
     // Distracture
-    let (employee_name,empoloyee_age)= emp_info;
-    println!("Employee Name ={},Employee Age={}",employee_name,empoloyee_age)
+    // let (employee_name,empoloyee_age)= emp_info;
+    // println!("Employee Name ={},Employee Age={}",employee_name,empoloyee_age)
 
+
+    // Function
+
+    let num1:u8 = 5;
+    let num2:u8 = 15;
+
+    let result:u8 = add_num(num1,num2);
+    println!("{}",result)
 }
+
+fn add_num(item1:u8,item2:u8)->u8{
+    return item1+item2;
+}
+
