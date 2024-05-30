@@ -7,9 +7,21 @@ fn main() {
 
     // In Rust variable are immutable so we can not change it without using (mut) keyword 
 
-    let mut num:u16 = 256;
-    println!("Hello, Rust! num = {}", num);
+        // let mut num:u16 = 256;
+        // println!("Hello, Rust! num = {}", num);
 
-    num = 22;
-    println!("Hello, Rust! num = {}", num);
+        // num = 22;
+        // println!("Hello, Rust! num = {}", num);
+
+    // &str - Fixed  Length String  Special
+    // String - Dynamic Length Strings - Heap Allocated
+
+        // let string_literal:&str = "Hi Rust";
+        // println!("{}",string_literal); 
+
+        // let mut string_dynamic:String = String::from("Hi Rust ");
+        // println!("{}",string_dynamic);
+        // string_dynamic.push_str("I am Hamza Ali");
+        // println!("{}",string_dynamic);
+
 }
