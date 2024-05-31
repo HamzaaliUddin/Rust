@@ -6,7 +6,7 @@ fn main(){
         return item % 2 == 0;
     }
 
-    let num:u8 = 3;
+    let num:u8 = 2;
     match num {
         // 1=>println!("num is one"),
         // 2 | 3 =>println!("num is one"),// 2 or 3 true
