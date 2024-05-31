@@ -10,4 +10,13 @@ fn main(){
         let last_name: String =  first_name;
         // println!("{}",first_name); can not call 
         println!("{}",last_name);
+
+    
+    let owner_ship:String = String::from("Hi Rust");
+    ownership_func(owner_ship);
+    //println!("{}",owner_ship);
+}
+
+fn ownership_func(item:String){
+    println!("{}",item);
 }
